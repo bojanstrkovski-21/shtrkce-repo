@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm shtrkce_repo*
+rm shtrkce-repo*
 
 echo "repo-add"
-repo-add -n -R shtrkce_repo.db.tar.gz *.pkg.tar.zst
+repo-add -n -R shtrkce-repo.db.tar.gz *.pkg.tar.zst
 
 
 echo "####################################"
